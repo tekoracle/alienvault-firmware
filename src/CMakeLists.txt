@@ -47,7 +47,6 @@ set(DBB-FIRMWARE-SOURCES
   ${CMAKE_SOURCE_DIR}/src/workflow/create_seed.c
   ${CMAKE_SOURCE_DIR}/src/workflow/idle_workflow.c
   ${CMAKE_SOURCE_DIR}/src/workflow/password.c
-  ${CMAKE_SOURCE_DIR}/src/workflow/password_enter.c
   ${CMAKE_SOURCE_DIR}/src/workflow/reboot.c
   ${CMAKE_SOURCE_DIR}/src/workflow/reset.c
   ${CMAKE_SOURCE_DIR}/src/workflow/restore.c
@@ -57,7 +56,6 @@ set(DBB-FIRMWARE-SOURCES
   ${CMAKE_SOURCE_DIR}/src/workflow/orientation_screen.c
   ${CMAKE_SOURCE_DIR}/src/workflow/status.c
   ${CMAKE_SOURCE_DIR}/src/workflow/trinary_input.c
-  ${CMAKE_SOURCE_DIR}/src/workflow/unlock.c
   ${CMAKE_SOURCE_DIR}/src/workflow/unlock_bip39.c
   ${CMAKE_SOURCE_DIR}/src/workflow/verify_pub.c
   ${CMAKE_SOURCE_DIR}/src/workflow/verify_recipient.c
